@@ -1,0 +1,23 @@
+[lang=pt-BR] .userPopout-3XzG_A .actionButton-VzECiy::after{
+    content: "Adicionar um cargo";
+}
+
+[lang=pt-BR] [aria-label="USER_SETTINGS"] div[data-focus-guard="true"] + div[data-focus-lock-disabled="false"]:empty::before{
+    content: 'Estranho, estamos em um lugar bizarro... \A Parece que você encontrou meu easter-egg \a \a \a - A user, Desenvolvedor do tema Bash';
+}
+
+[lang=pt-BR] .theme-dark .container-3ayLPN:empty::before{
+    content: "Digite para procurar algo";
+}
+
+[lang=pt-BR] .info-1VyQPT .size12-3cLvbJ:last-child:after{
+    content: "\a Bash ver " var(--bash-version) " por A user#6560";
+}
+
+[lang=pt-BR].itemActive-2V2HNc::before{
+    content: "Selecionado";
+}
+
+html[lang=pt-BR]::before{
+    content: "A METADATA do Bash foi atualizada. Por favor, reinstale o tema";
+}
