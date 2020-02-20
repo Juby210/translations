@@ -1,0 +1,23 @@
+[lang=urLang] .userPopout-3XzG_A .actionButton-VzECiy::after{
+    content: "Add a role";
+}
+
+[lang=urlang] [aria-label="USER_SETTINGS"] div[data-focus-guard="true"] + div[data-focus-lock-disabled="false"]:empty::before{
+    content: 'Somehow you got this. \A Looks like that you found my easter egg \a \a \a - A user, Bash dev';
+}
+
+[lang=urlang] .theme-dark .container-3ayLPN:empty::before{
+    content: "Type to search something";
+}
+
+[lang=urlang] .info-1VyQPT .size12-3cLvbJ:last-child:after{
+    content: "\a Bash ver " var(--bash-version) " by A user#6560";
+}
+
+[lang=urlang].itemActive-2V2HNc::before{
+    content: "Already set";
+}
+
+html[lang=urlang]::before{
+    content: "The Bash METADATA was updated. Plase redownload the theme";
+}
