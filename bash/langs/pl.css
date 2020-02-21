@@ -1,0 +1,23 @@
+[lang=pl] .userPopout-3XzG_A .actionButton-VzECiy::after{
+    content: "Dodaj rolę";
+}
+
+[lang=pl] [aria-label="USER_SETTINGS"] div[data-focus-guard="true"] + div[data-focus-lock-disabled="false"]:empty::before{
+    content: 'Jakoś tu jesteś. \A Wygląda na to, że znalazłeś mój easter egg \a \a \a - A user, Bash dev';
+}
+
+[lang=pl] .theme-dark .container-3ayLPN:empty::before{
+    content: "Type to search something";
+}
+
+[lang=pl] .info-1VyQPT .size12-3cLvbJ:last-child:after{
+    content: "\a Bash wer " var(--bash-version) " tworzony przez A user#6560";
+}
+
+[lang=pl].itemActive-2V2HNc::before{
+    content: "Już ustawiony";
+}
+
+html[lang=pl]::before{
+    content: "Bash METADATA została zaktualizowana. Proszę pobierz ponownie motyw";
+}
